@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background: #1f2937;
+  color: white;
+  padding: 48px;
+}
+.hero h1 {
+  margin-left: 60px
+}
+nav{
+  margin-right: 60px;
+}
+nav a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin: 16px;
+}
+.content-1 {
+  background: #1f2937;
+  height: 34vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-1 .left h1 {
+  font-size: 48px;
+}
+.content-2 {
+  text-align: center;
+  margin: 48px;
+  margin-bottom: 48px;
+}
+.content-2 .card {
+  width: 150px;
+  height: 150px;
+  border: solid #3882f6 4px;
+  border-radius: 10%;
+}
+.content-2 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 48px;
+} 
+.content-3 {
+  background: lightgray;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.content-3 p {
+  text-align: center;
+  font-size: 36px;
+  padding: 48px;
+}
+.content-3 h3 {
+ margin-left: 300px;
+}
+.content-4 {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-4 .call-card {
+  background: #3882f6;
+  height: 150px;
+  width: 1200px;
+  border: solid 4px #3882f6 ;
+  border-radius: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+}
+.content-4 .call-card .left-call {
+  color: white;
+  margin-left: 150px;
+}
+.content-4 .call-card .right-call button {
+  background: #3882f6;
+  border: solid white 2px;
+  border-radius: 15%;
+  color: white;
+  height:40px;
+  width: 160px;
+  margin-right: 150px;
+}
+footer {
+  background: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 10vh;
+}
